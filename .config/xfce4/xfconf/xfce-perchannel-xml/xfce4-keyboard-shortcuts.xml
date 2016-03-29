@@ -61,8 +61,8 @@
       <property name="XF86AudioPlay" type="string" value="clementine --play-pause"/>
       <property name="XF86AudioNext" type="string" value="clementine --next"/>
       <property name="XF86AudioPrev" type="string" value="clementine --previous"/>
-      <property name="&lt;Super&gt;F12" type="string" value="mykeyboardsetup.sh ru"/>
-      <property name="&lt;Super&gt;F11" type="string" value="mykeyboardsetup.sh epo"/>
+      <property name="&lt;Super&gt;F12" type="string" value="setxkbmap -layout 'us,ru'"/>
+      <property name="&lt;Super&gt;F11" type="string" value="setxkbmap -layout 'us,epo'"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
