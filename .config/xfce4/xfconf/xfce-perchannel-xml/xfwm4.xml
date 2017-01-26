@@ -20,8 +20,8 @@
     <property name="double_click_action" type="string" value="maximize"/>
     <property name="double_click_distance" type="int" value="5"/>
     <property name="double_click_time" type="int" value="250"/>
-    <property name="easy_click" type="string" value="Super"/>
-    <property name="focus_delay" type="int" value="419"/>
+    <property name="easy_click" type="string" value="Mod4"/>
+    <property name="focus_delay" type="int" value="5"/>
     <property name="focus_hint" type="bool" value="true"/>
     <property name="focus_new" type="bool" value="true"/>
     <property name="frame_opacity" type="int" value="100"/>
@@ -38,7 +38,7 @@
     <property name="raise_delay" type="int" value="250"/>
     <property name="raise_on_click" type="bool" value="false"/>
     <property name="raise_on_focus" type="bool" value="false"/>
-    <property name="raise_with_any_button" type="bool" value="false"/>
+    <property name="raise_with_any_button" type="bool" value="true"/>
     <property name="repeat_urgent_blink" type="bool" value="false"/>
     <property name="resize_opacity" type="int" value="100"/>
     <property name="scroll_workspaces" type="bool" value="true"/>
@@ -50,12 +50,12 @@
     <property name="show_app_icon" type="bool" value="false"/>
     <property name="show_dock_shadow" type="bool" value="false"/>
     <property name="show_frame_shadow" type="bool" value="true"/>
-    <property name="show_popup_shadow" type="bool" value="false"/>
-    <property name="snap_resist" type="bool" value="true"/>
+    <property name="show_popup_shadow" type="bool" value="true"/>
+    <property name="snap_resist" type="bool" value="false"/>
     <property name="snap_to_border" type="bool" value="true"/>
     <property name="snap_to_windows" type="bool" value="true"/>
     <property name="snap_width" type="int" value="10"/>
-    <property name="sync_to_vblank" type="bool" value="true"/>
+    <property name="sync_to_vblank" type="bool" value="false"/>
     <property name="theme" type="string" value="Default-4.6"/>
     <property name="tile_on_move" type="bool" value="true"/>
     <property name="title_alignment" type="string" value="center"/>
@@ -70,13 +70,8 @@
     <property name="unredirect_overlays" type="bool" value="true"/>
     <property name="urgent_blink" type="bool" value="true"/>
     <property name="use_compositing" type="bool" value="true"/>
-    <property name="workspace_count" type="int" value="4"/>
+    <property name="workspace_count" type="int" value="6"/>
     <property name="wrap_cycle" type="bool" value="true"/>
-    <property name="wrap_layout" type="bool" value="true"/>
-    <property name="wrap_resistance" type="int" value="10"/>
-    <property name="wrap_windows" type="bool" value="true"/>
-    <property name="wrap_workspaces" type="bool" value="false"/>
-    <property name="zoom_desktop" type="bool" value="true"/>
     <property name="workspace_names" type="array">
       <value type="string" value="Workspace 1"/>
       <value type="string" value="Workspace 2"/>
@@ -89,5 +84,10 @@
       <value type="string" value="Workspace 9"/>
       <value type="string" value="Workspace 10"/>
     </property>
+    <property name="wrap_layout" type="bool" value="true"/>
+    <property name="wrap_resistance" type="int" value="10"/>
+    <property name="wrap_windows" type="bool" value="true"/>
+    <property name="wrap_workspaces" type="bool" value="false"/>
+    <property name="zoom_desktop" type="bool" value="true"/>
   </property>
 </channel>
