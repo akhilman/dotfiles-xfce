@@ -73,6 +73,7 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;Left" type="string" value="/home/ildar/.local/bin/movescreen.py left"/>
       <property name="&lt;Shift&gt;&lt;Super&gt;Right" type="string" value="/home/ildar/.local/bin/movescreen.py right"/>
       <property name="&lt;Alt&gt;Escape" type="string" value="xfce4-popup-windowmenu"/>
+      <property name="&lt;Shift&gt;&lt;Super&gt;z" type="string" value="xflock4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
