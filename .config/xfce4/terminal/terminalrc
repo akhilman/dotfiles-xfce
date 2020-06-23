@@ -38,6 +38,5 @@ BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_CENTERED
 BackgroundImageShading=0.860000
 MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
-FontName=Monospace 11
-FontUseSystem=TRUE
+FontName=DejaVu Sans Mono for Powerline 11
 
